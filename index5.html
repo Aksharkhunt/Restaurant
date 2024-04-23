@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #939090;
+        }
+
+        section{
+        background-image: url('img/dark.png');
+        height: 110%;
+        width: 69%;    
+        background-size: cover;
+        background-position: center;
+        color: #dddada;
+        text-align: center;
+        padding: 15.5%;
+        }
+         
+        h2{
+            color: rgb(0, 255, 132);
+        }
+    
+        button{
+            height: 35px;
+        }
+        
+
+        .ceiling {
+            width: 30%;
+            height: 30%;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotateCeiling 10s infinite linear;
+        }
+
+        .ceiling .top,
+        .ceiling .bottom {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        .ceiling .top {
+            transform: rotateX(90deg);
+            transform-origin: bottom;
+        }
+
+        .ceiling .bottom {
+            transform: rotateX(-90deg);
+            transform-origin: top;
+        }
+
+        @keyframes rotateCeiling {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .title h1 {
+            font-size: 32px;
+            color: #333;
+            text-transform: uppercase;
+        }
+    a:hover{
+            
+        background-color: #510080bd;
+    color: #000000fa;
+    border-radius: 5px;
+}
+ 
+footer {
+    background-color: #f5f2f2;
+    color: #0a0a0a;
+    padding: 0.1% 0.1%;
+    text-align: center;
+  }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav align="center">
+            <div><img  align="left" src="img/logo.jpeg" alt="" height="5%" width="5%"></div>
+           <a href="logo-png.png"></a>
+          <ul>
+             <h1><li><u>Akshar Restaurant</u></li></h1>
+          </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">Login</a></li>
+            <li><a href="index2.html">Registration</a></li>
+            <li><a href="index3.html">About</a></li>
+            <li><a href="index4.html">Gallery</a></li>
+            <li><a href="index5.html">Order Online</a></li>
+            <li><a href="index6.html">Testimonials</a></li>
+            <li><a href="index7.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+     <section>
+        <h1>Akshar Restaurant</h1>
+        <h2>Place your order online for easiest ordering experience, Order Now!
+        </h2>
+        <a href="index7.html"><button  type="submit">order online</button></a></td>
+     </section>
+    
+
+    <div class="container">
+        <div class="ceiling">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <div class="title">
+        <h1>Welcome to Akshar Restaurant</h1>
+        <p>Your destination for exquisite ceiling food</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Akshar Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
